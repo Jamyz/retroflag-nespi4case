@@ -1,5 +1,7 @@
 # retroflag-nespi4case
 Installer for NESPi 4 CASE
+* Use install.sh to install SafeShutdown.py.
+* Use uninstall.sh to remove SafeShudown.py,folders,etc....
 
 
 ## RetroFlag NESPi 4 CASE Safe Shutdown
