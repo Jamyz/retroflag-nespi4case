@@ -23,7 +23,9 @@ def when_released():
     led.on()
 
 def reboot():
-    os.system("sudo reboot")
+    #select hard or safe reboot
+    os.system("sudo reboot")#comment or uncomment for hard reboot
+    #os.system("sudo shutdown -r now")# comment or uncomment for safe reboot
 
 btn = Button(powerPin, hold_time=hold)
 rebootBtn = Button(resetPin)
